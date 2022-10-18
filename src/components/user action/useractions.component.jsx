@@ -5,7 +5,6 @@ import { ReactComponent as View } from "../../asset/Vector-3.svg";
 import "./useractions.styles.css";
 
 const UserActions = (props) => {
-	const { hide } = props;
 	return (
 		<div className="user-actions hide">
 			<div>
