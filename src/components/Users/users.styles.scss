@@ -1,0 +1,48 @@
+@import "../../styles/abstract/variables.styles.scss";
+
+.user {
+	height: 100%;
+	flex: 1;
+	padding: 0 3rem;
+	padding-top: 6rem;
+	background-color: $color-secondary-transparent;
+	overflow: scroll;
+
+	&::-webkit-scrollbar {
+		opacity: 0;
+		display: none;
+	}
+
+	&--header {
+		font-weight: $fontweight-semibold;
+		font-size: $fontsize-medium-2;
+		line-height: 28px;
+		color: $color-primary;
+		margin-bottom: $margin-bottom-1;
+	}
+
+	&--summary {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: $margin-bottom-1;
+	}
+
+	&--table {
+		width: 100%;
+		background-color: $color-white;
+		box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+		padding: 1.5rem 3rem;
+
+		&__header {
+			display: grid;
+			grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr;
+			text-transform: uppercase;
+			font-weight: $fontweight-bold;
+			font-size: $fontsize-small;
+			line-height: 14px;
+			color: $color-secondary;
+		}
+	}
+}

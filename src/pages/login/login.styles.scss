@@ -1,0 +1,83 @@
+@import "../../styles/abstract/variables.styles.scss";
+
+.login {
+	font-family: montserrat;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+
+	&--1,
+	&--2 {
+		display: flex;
+		width: 50%;
+		height: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&--1 {
+		background-color: $color-secondary-transparent;
+	}
+
+	&--2 {
+		padding-left: 4rem;
+		align-items: flex-start;
+	}
+
+	&--pic {
+		width: 60rem;
+	}
+
+	&--header {
+		font-weight: $fontweight-bolder;
+		font-size: $fontsize-big;
+		line-height: 5.5rem;
+		color: $color-primary;
+	}
+
+	&--details {
+		color: $color-secondary;
+		font-size: $fontsize-medium;
+		font-weight: $fontweight-regular;
+		line-height: 2.7rem;
+		margin-bottom: $margin-bottom-1;
+	}
+
+	&--form {
+		width: 62%;
+
+		&__forgot {
+			display: block;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			line-height: 1.6rem;
+			color: $color-tertiary;
+			margin-bottom: $margin-bottom-1;
+			cursor: pointer;
+		}
+
+		&__button {
+			display: block;
+			width: 100%;
+			border-radius: $border-radius-2;
+			background-color: $color-tertiary;
+			padding: 1.5rem 2rem;
+			border: 0;
+			cursor: pointer;
+			color: $color-white;
+			font-weight: $fontweight-bold;
+		}
+	}
+}
+
+.field {
+	display: block;
+	margin-bottom: $margin-bottom-1;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}

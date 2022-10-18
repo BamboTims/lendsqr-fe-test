@@ -1,0 +1,54 @@
+@import "../../styles/abstract/variables.styles.scss";
+
+@mixin btn {
+	padding: 8px;
+	background-color: $color-secondary-transparent;
+	color: $color-secondary;
+	border: 0;
+	cursor: pointer;
+}
+
+.pagination {
+	display: flex;
+	margin: 2rem 0;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: $fontweight-regular;
+	font-size: $fontsize-regular;
+	line-height: 16px;
+	color: $color-secondary;
+	letter-spacing: 0.04em;
+
+	&__btn {
+		@include btn;
+	}
+
+	&--entries {
+		width: 30%;
+		&__select {
+			display: inline-block;
+			margin: 0 1rem;
+
+			select {
+				@include btn;
+			}
+		}
+	}
+
+	&--pages {
+		width: 30%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+
+		div {
+			cursor: pointer;
+
+			&.active {
+				color: #545f7a;
+				border-left: 0;
+                background-color: transparent;
+			}
+		}
+	}
+}

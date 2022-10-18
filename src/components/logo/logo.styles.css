@@ -1,0 +1,9 @@
+.logo {
+  display: block;
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+}
+.logo .logopic {
+  height: 15rem;
+}/*# sourceMappingURL=logo.styles.css.map */

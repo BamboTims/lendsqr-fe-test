@@ -1,0 +1,13 @@
+.section {
+  width: 100%;
+}
+.section:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.section--header {
+  color: #545f7d;
+  font-size: 1.2rem;
+  line-height: 14px;
+  font-weight: 500;
+  padding: 1rem 3rem;
+}/*# sourceMappingURL=section.styles.css.map */

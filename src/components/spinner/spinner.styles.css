@@ -1,0 +1,28 @@
+.spinner {
+  height: 5rem;
+  width: 5rem;
+  border: 3px solid rgba(0, 0, 0, 0.075);
+  border-top: 3px solid black;
+  margin: 5rem auto;
+  border-radius: 100%;
+  -webkit-animation: spin 1s infinite ease-in;
+          animation: spin 1s infinite ease-in;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=spinner.styles.css.map */

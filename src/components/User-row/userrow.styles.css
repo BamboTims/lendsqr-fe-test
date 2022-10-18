@@ -1,0 +1,45 @@
+.user--row {
+  display: grid;
+  position: relative;
+  grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr;
+  gap: 2rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 16px;
+  color: #545f7d;
+  padding: 2rem 0;
+}
+.user--row:not(:last-child) {
+  border-bottom: 3px solid rgba(84, 95, 125, 0.0352941176);
+}
+.user--row__cell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user--row__cell .user-icon {
+  cursor: pointer;
+}
+.user--row__cell .user-status {
+  width: 60%;
+  padding: 5px;
+  border-radius: 100px;
+  border-left: 0;
+  text-align: center;
+}
+.user--row__cell .user-status.active {
+  background-color: rgba(57, 205, 99, 0.1450980392);
+  color: #39cd62;
+}
+.user--row__cell .user-status.pending {
+  background-color: rgba(233, 179, 0, 0.1764705882);
+  color: #e9b200;
+}
+.user--row__cell .user-status.blacklisted {
+  background-color: rgba(228, 3, 59, 0.137254902);
+  color: #e4033b;
+}
+.user--row__cell .user-status.inactive {
+  background-color: rgba(84, 95, 125, 0.1215686275);
+  color: #545f7d;
+}/*# sourceMappingURL=userrow.styles.css.map */

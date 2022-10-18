@@ -1,0 +1,35 @@
+@import "../../styles/abstract/variables.styles.scss";
+
+.form {
+	&-input {
+		display: inline-block;
+		border: 2px solid rgba(84, 95, 125, 0.15);
+		border-radius: $border-radius-1;
+		width: 100%;
+		padding: 1.5rem;
+
+		&::placeholder {
+			color: $color-secondary;
+			font-size: $fontsize-small;
+		}
+	}
+
+	&-show {
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translate(-30%, -50%);
+		color: $color-tertiary;
+		letter-spacing: 0.1em;
+		line-height: 16px;
+		font-size: $fontsize-small;
+		font-weight: $fontweight-bold;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+}
+
+.field {
+	position: relative;
+}

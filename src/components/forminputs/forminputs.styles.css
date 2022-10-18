@@ -1,0 +1,37 @@
+.form-input {
+  display: inline-block;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+  width: 100%;
+  padding: 1.5rem;
+}
+.form-input::-moz-placeholder {
+  color: #545f7d;
+  font-size: 1.2rem;
+}
+.form-input:-ms-input-placeholder {
+  color: #545f7d;
+  font-size: 1.2rem;
+}
+.form-input::placeholder {
+  color: #545f7d;
+  font-size: 1.2rem;
+}
+.form-show {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-30%, -50%);
+  color: #39cdcc;
+  letter-spacing: 0.1em;
+  line-height: 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.field {
+  position: relative;
+}/*# sourceMappingURL=forminputs.styles.css.map */

@@ -1,0 +1,16 @@
+@import "../../styles/abstract/variables.styles.scss";
+
+.section--link {
+	display: block;
+	padding: 2rem 3rem;
+	color: $color-primary;
+	font-weight: $fontweight-regular;
+	font-size: $fontsize-regular;
+	line-height: 1.9px;
+	cursor: pointer;
+}
+
+.active {
+	background-color: #39cdcd1c;
+	border-left: 4px solid $color-tertiary;
+}

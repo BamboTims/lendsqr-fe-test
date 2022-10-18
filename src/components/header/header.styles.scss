@@ -1,0 +1,77 @@
+@import "../../styles/abstract/variables.styles.scss";
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+	width: 100%;
+	height: 10rem;
+	box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+
+	&--logo {
+		height: 3rem;
+
+		svg {
+			height: 100%;
+		}
+	}
+
+	&--input {
+		width: 30%;
+		position: relative;
+
+		&__search {
+			position: absolute;
+			top: 0;
+			right: 0;
+			background-color: $color-tertiary;
+			width: 15%;
+			padding: 1.5rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+			border-radius: 0 8px 8px 0;
+
+			svg {
+				height: 2rem;
+				fill: $color-white;
+			}
+		}
+	}
+
+	&--links {
+		width: 20%;
+		ul {
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+
+			li {
+				color: $color-primary;
+				font-size: $fontsize-regular;
+				font-weight: $fontweight-semibold;
+				display: inline-block;
+				cursor: pointer;
+				display: flex;
+				align-items: center;
+
+				div {
+					width: 5rem;
+					margin-right: 1rem;
+
+					img {
+						background-position: center;
+						border-radius: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+.underline {
+	text-decoration: underline;
+}

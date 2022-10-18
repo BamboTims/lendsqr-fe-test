@@ -1,0 +1,54 @@
+.summary {
+  height: 16rem;
+  width: 24rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  border-radius: 4px;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.summary--image {
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.summary--image svg {
+  height: 50%;
+}
+.summary--image.red {
+  fill: #ff3366;
+  background-color: rgba(255, 51, 102, 0.1450980392);
+}
+.summary--image.purple {
+  fill: #df18ff;
+  background-color: rgba(224, 24, 255, 0.0941176471);
+}
+.summary--image.orange {
+  fill: #f55f44;
+  background-color: rgba(245, 95, 68, 0.1294117647);
+}
+.summary--image.blue {
+  fill: #5718ff;
+  background-color: rgba(86, 24, 255, 0.1529411765);
+}
+.summary--header {
+  font-size: 1.6rem;
+  color: #545f7d;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 16px;
+}
+.summary--info {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #213f7d;
+}/*# sourceMappingURL=summarybox.styles.css.map */

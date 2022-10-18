@@ -1,0 +1,14 @@
+.section--link {
+  display: block;
+  padding: 2rem 3rem;
+  color: #213f7d;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgba(57, 205, 205, 0.1098039216);
+  border-left: 4px solid #39cdcc;
+}/*# sourceMappingURL=sectionlink.styles.css.map */

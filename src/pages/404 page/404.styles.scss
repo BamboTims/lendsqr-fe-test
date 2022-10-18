@@ -1,0 +1,25 @@
+@import "../../styles/abstract/variables.styles.scss";
+
+.page-404 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	&--image {
+		margin-bottom: $margin-bottom-1;
+	}
+
+	&--text {
+		text-align: center;
+		h2 {
+			font-size: $fontsize-medium-2;
+			letter-spacing: 0.1em;
+		}
+
+		p {
+			font-size: $fontsize-regular;
+		}
+	}
+}

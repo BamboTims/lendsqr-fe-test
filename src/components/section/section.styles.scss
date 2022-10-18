@@ -1,0 +1,17 @@
+@import "../../styles/abstract/variables.styles.scss";
+
+.section {
+	width: 100%;
+
+	&:not(:last-child) {
+		margin-bottom: $margin-bottom-1;
+	}
+
+	&--header {
+		color: $color-secondary;
+		font-size: $fontsize-small;
+		line-height: 14px;
+		font-weight: $fontweight-semibold;
+		padding: 1rem 3rem;
+	}
+}
